@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
-  chat-title="PsychiatristV1"
+  chat-icon="https://photo-tsuji.s3.amazonaws.com/chat.png"
+  chat-title="Brent Bot"
   agent-id="8f508f22-ac2b-4f76-a667-d68460f3ada3"
   language-code="en"
+ 
 ></df-messenger>
+<style>
+  
+  df-messenger{
+   font-family:Cormorant, monospace;
+--df-messenger-button-titlebar-color: black;
+--df-messenger-chat-background-color:  white;
+--df-messenger-send-icon:black;
+    
+  }
+</style>
 <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet" type="text/css">
 <style>
   div{
