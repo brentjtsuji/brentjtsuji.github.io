@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+  .iframe{
+    border-radius:10px;
+  }
+</style>
+
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
@@ -62,6 +68,13 @@
     width:60%;
     
   }
+  .border3{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 40px;
+    text-align: center;
+    width:60%;
+  }
   .nav{
     position:fixed;
     text-align: right;
@@ -106,13 +119,14 @@
     </div>
  <div>
     <h1 class=border>Brent Tsuji<hr></hr></h1>
-    <h1 class=border id="header"><hr></hr></h1>
-    <h1 class= border2>
+    <h1 class="border3"><iframe class=iframe width="360" height="315" src="https://www.youtube.com/embed/LpGnm7QhXP0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr></hr></h1>
+    <h1 class= border2 id="header">
       Hi, I'm an aspiring data/software engineer looking for the right algorithms in the wrong problems. Let's do science.<hr></hr>
     </h1>
-<h1 class=border><hr></hr></h1>
+<h1 class=border><a class=links href="https://photo-tsuji.s3.amazonaws.com/Resume-Btsuji.pdf" target="_blank"> Résumé</a> <hr></hr></h1>
     </div>
   <div id ="links" class=links><a href="https://github.com/brentjtsuji"target="_blank">Github</a> <a href="https://www.kaggle.com/eatplantsordie"target="_blank"> Kaggle</a> <a href="https://www.linkedin.com/in/brent-tsuji-a13ab6108/"target="_blank">LinkedIn</a></div>
+
 
   
 </main>
